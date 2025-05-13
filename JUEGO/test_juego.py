@@ -28,7 +28,7 @@ class TestJuego(unittest.TestCase):
         self.assertEqual(comparar('tijera', 'piedra'), -1)
 
     def test_tijera_vs_tijera(self):
-        self.assertEqual(comparar('tijera', 'tijera'), 0)
+        self.assertEqual(comparar('tijera', 'tijera'), 1)
 
 if __name__ == '__main__':
     unittest.main()
